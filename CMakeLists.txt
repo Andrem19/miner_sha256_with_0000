@@ -3,4 +3,4 @@ project(Sha256)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Sha256 main.cpp picosha2.h)
+add_executable(Sha256 main.cpp picosha2.h CalcHash.cpp CalcHash.h)

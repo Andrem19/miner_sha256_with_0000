@@ -118,6 +118,30 @@ Sha256\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sha256.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Sha256.dir\build
 .PHONY : Sha256\fast
 
+CalcHash.obj: CalcHash.cpp.obj
+.PHONY : CalcHash.obj
+
+# target to build an object file
+CalcHash.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sha256.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Sha256.dir\CalcHash.cpp.obj
+.PHONY : CalcHash.cpp.obj
+
+CalcHash.i: CalcHash.cpp.i
+.PHONY : CalcHash.i
+
+# target to preprocess a source file
+CalcHash.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sha256.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Sha256.dir\CalcHash.cpp.i
+.PHONY : CalcHash.cpp.i
+
+CalcHash.s: CalcHash.cpp.s
+.PHONY : CalcHash.s
+
+# target to generate assembly for a file
+CalcHash.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sha256.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Sha256.dir\CalcHash.cpp.s
+.PHONY : CalcHash.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -151,6 +175,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Sha256
+	@echo ... CalcHash.obj
+	@echo ... CalcHash.i
+	@echo ... CalcHash.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

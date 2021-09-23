@@ -74,17 +74,38 @@ CMakeFiles\Sha256.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Sha256.dir\main.cpp.s /c D:\CODE\C++_new\Sha256\main.cpp
 <<
 
+CMakeFiles\Sha256.dir\CalcHash.cpp.obj: CMakeFiles\Sha256.dir\flags.make
+CMakeFiles\Sha256.dir\CalcHash.cpp.obj: ..\CalcHash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\C++_new\Sha256\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Sha256.dir/CalcHash.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Sha256.dir\CalcHash.cpp.obj /FdCMakeFiles\Sha256.dir\ /FS -c D:\CODE\C++_new\Sha256\CalcHash.cpp
+<<
+
+CMakeFiles\Sha256.dir\CalcHash.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sha256.dir/CalcHash.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Sha256.dir\CalcHash.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CODE\C++_new\Sha256\CalcHash.cpp
+<<
+
+CMakeFiles\Sha256.dir\CalcHash.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sha256.dir/CalcHash.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Sha256.dir\CalcHash.cpp.s /c D:\CODE\C++_new\Sha256\CalcHash.cpp
+<<
+
 # Object files for target Sha256
 Sha256_OBJECTS = \
-"CMakeFiles\Sha256.dir\main.cpp.obj"
+"CMakeFiles\Sha256.dir\main.cpp.obj" \
+"CMakeFiles\Sha256.dir\CalcHash.cpp.obj"
 
 # External object files for target Sha256
 Sha256_EXTERNAL_OBJECTS =
 
 Sha256.exe: CMakeFiles\Sha256.dir\main.cpp.obj
+Sha256.exe: CMakeFiles\Sha256.dir\CalcHash.cpp.obj
 Sha256.exe: CMakeFiles\Sha256.dir\build.make
 Sha256.exe: CMakeFiles\Sha256.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CODE\C++_new\Sha256\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Sha256.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CODE\C++_new\Sha256\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Sha256.exe"
 	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Sha256.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Sha256.dir\objects1.rsp @<<
  /out:Sha256.exe /implib:Sha256.lib /pdb:D:\CODE\C++_new\Sha256\cmake-build-debug\Sha256.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

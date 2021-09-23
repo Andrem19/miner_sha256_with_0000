@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/CODE/C++_new/Sha256/CalcHash.cpp" "D:/CODE/C++_new/Sha256/cmake-build-debug/CMakeFiles/Sha256.dir/CalcHash.cpp.obj"
   "D:/CODE/C++_new/Sha256/main.cpp" "D:/CODE/C++_new/Sha256/cmake-build-debug/CMakeFiles/Sha256.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

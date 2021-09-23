@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/CODE/C++_new/Sha256/CalcHash.cpp">
+			<Option target="Sha256"/>
+		</Unit>
+		<Unit filename="D:/CODE/C++_new/Sha256/CalcHash.h">
+			<Option target="Sha256"/>
+		</Unit>
 		<Unit filename="D:/CODE/C++_new/Sha256/main.cpp">
 			<Option target="Sha256"/>
 		</Unit>

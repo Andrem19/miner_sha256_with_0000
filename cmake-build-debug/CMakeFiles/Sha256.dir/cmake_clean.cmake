@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Sha256.dir/CalcHash.cpp.obj"
   "CMakeFiles/Sha256.dir/main.cpp.obj"
   "Sha256.exe"
   "Sha256.exe.manifest"
